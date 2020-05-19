@@ -1,0 +1,138 @@
+a, ul {
+  color: lightblue;
+}
+
+a:hover {
+  color: lightblue;
+  font-weight: 600;
+}
+
+header {
+  background-color: rgba(40, 60, 100, 0.8);
+  margin: 0px;
+  padding: 20px;
+}
+
+h1 {
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+h3, h4 {
+  text-align: center;
+  color: white;
+}
+
+nav.navbar {
+  background-color: rgba(5, 5, 5, 0.8);
+}
+
+.nav-item {
+  padding: 10px;
+  font-weight: 500;
+}
+
+@media (min-width: 600px) {
+  body {
+    background-image: url("img/background.jpg");
+    background-size: cover;
+  }
+
+  h1::before {
+    content: "Welcome to Sebastian's Personal Web Page!";
+  }
+
+  h1 {
+    font-size: 45px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  .nav-item {
+    padding: 10px;
+    font-size: 25px;
+  }
+}
+@media (max-width: 599px) {
+  body {
+    background-image: url("img/backgroundVertical.jpg");
+    background-size: cover;
+  }
+
+  h1::before {
+    content: "Sebastian's Web!";
+  }
+
+  h1 {
+    font-size: 30px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .nav-item {
+    padding: 5px;
+    font-size: 15px;
+  }
+}
+#presentation div.row div {
+  background-color: rgba(35, 55, 80, 0.8);
+  margin: 20px;
+  padding: 20px;
+}
+#presentation div.row div p {
+  text-align: justify;
+  font-weight: 450;
+  color: white;
+}
+
+ol h3 {
+  text-align: left;
+}
+
+#interests {
+  padding: 20px;
+}
+#interests ol > div {
+  background-color: rgba(35, 55, 80, 0.8);
+  margin: 10px;
+  padding: 50px;
+}
+#interests ol > div p {
+  text-align: justify;
+  font-weight: 450;
+  color: white;
+}
+
+#gallery {
+  margin-top: 10px;
+  padding: 2px;
+}
+#gallery div.row {
+  padding: 5px;
+}
+#gallery div.row div {
+  margin: 5px;
+}
+
+#contact div.row div {
+  background-color: rgba(35, 55, 80, 0.8);
+  text-align: center;
+  margin: 20px;
+  padding: 20px;
+  color: white;
+}
+
+/*# sourceMappingURL=personalized.css.map */
