@@ -47,7 +47,7 @@ nav.navbar {
 		background-size: cover;
 	}
 	h1::before {
-        content: "Welcome to Sebastian's Personal Web Page!";
+        content: "Sebastian Galvez's Personal Website";
     }
     h1 {
     	font-size: 45px;	
@@ -67,7 +67,7 @@ nav.navbar {
 		background-size: cover;
 	}
 	h1::before {
-        content: "Sebastian's Web!";
+        content: "S. Galvez's Web";
     }
     h1 {
     	font-size: 30px;
@@ -102,7 +102,7 @@ ol {
 		text-align: left;
 	}
 }
-#interests{
+#interests {
 	padding: 20px;
 	ol > div {				
 		background-color: $transparentboxcolor;
@@ -126,9 +126,9 @@ ol {
 	}
 }
 
-// CONTACT PAGE STYLE
+// CONTACT AND PROFESSIONAL PAGE STYLE
 
-#contact {
+#contact, #professional {
 	div.row {
 		div {
 			background-color: $transparentboxcolor;
@@ -136,6 +136,11 @@ ol {
 			margin: 20px;
 			padding: 20px;	
 			color: $fgtextcolor;		
+			table {
+				margin:20px;
+				text-align: left;
+				color: white;
+			}
 		}
 	}
 }

@@ -48,7 +48,7 @@ nav.navbar {
   }
 
   h1::before {
-    content: "Welcome to Sebastian's Personal Web Page!";
+    content: "Sebastian Galvez's Personal Website";
   }
 
   h1 {
@@ -71,7 +71,7 @@ nav.navbar {
   }
 
   h1::before {
-    content: "Sebastian's Web!";
+    content: "S. Galvez's Web";
   }
 
   h1 {
@@ -127,11 +127,16 @@ ol h3 {
   margin: 5px;
 }
 
-#contact div.row div {
+#contact div.row div, #professional div.row div {
   background-color: rgba(35, 55, 80, 0.8);
   text-align: center;
   margin: 20px;
   padding: 20px;
+  color: white;
+}
+#contact div.row div table, #professional div.row div table {
+  margin: 20px;
+  text-align: left;
   color: white;
 }
 
