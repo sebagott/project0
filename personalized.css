@@ -1,3 +1,8 @@
+h1, h2, h3, h4, #contact div.row div, #professional div.row div {
+  text-align: center;
+  color: white;
+}
+
 a, ul {
   color: lightblue;
 }
@@ -16,20 +21,11 @@ header {
 h1 {
   padding: 20px;
   margin: 0px;
-  text-align: center;
-  color: white;
 }
 
 h2 {
-  text-align: center;
   padding: 20px;
-  color: white;
   font-weight: bold;
-}
-
-h3, h4 {
-  text-align: center;
-  color: white;
 }
 
 nav.navbar {
@@ -129,10 +125,11 @@ ol h3 {
 
 #contact div.row div, #professional div.row div {
   background-color: rgba(35, 55, 80, 0.8);
-  text-align: center;
   margin: 20px;
   padding: 20px;
-  color: white;
+}
+#contact div.row div p, #professional div.row div p {
+  text-align: justify;
 }
 #contact div.row div table, #professional div.row div table {
   margin: 20px;

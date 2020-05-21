@@ -2,6 +2,11 @@ $opacity: 0.8;
 $transparentboxcolor: rgba(35, 55, 80, $opacity);
 $fgtextcolor: white;
 
+%centeredfgtext {
+	text-align: center;
+	color: $fgtextcolor;
+}
+
 a, ul {
 	color: lightblue;
 }
@@ -17,21 +22,19 @@ header {
 
 }
 h1 {
+	@extend %centeredfgtext;
 	padding: 20px;		
-	margin: 0px;	
-	text-align: center;
-	color: $fgtextcolor;	
+	margin: 0px;		
 }
 h2 {		
-	text-align: center;
-	padding: 20px;
-	color: $fgtextcolor;
+	@extend %centeredfgtext;
+	padding: 20px;	
 	font-weight: bold;
 }
 h3, h4 {
-	text-align: center;	
-	color: $fgtextcolor;
+	@extend %centeredfgtext;	
 }
+
 // NAVBAR STYLE
 nav.navbar {
 	background-color: rgba(5, 5, 5, $opacity);
@@ -131,15 +134,17 @@ ol {
 #contact, #professional {
 	div.row {
 		div {
+			@extend %centeredfgtext;
 			background-color: $transparentboxcolor;
-			text-align: center;
 			margin: 20px;
-			padding: 20px;	
-			color: $fgtextcolor;		
+			padding: 20px;
+			p {
+				text-align: justify;
+			}	
 			table {
 				margin:20px;
 				text-align: left;
-				color: white;
+				color: $fgtextcolor;
 			}
 		}
 	}
